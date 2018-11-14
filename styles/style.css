@@ -106,7 +106,7 @@ h1:hover {
     text-shadow: 1px 0 20px red;
 }
 h3 {
-    font-size:3vw;
+    font-size:2em;
     margin: 0;
     background: rgb(68, 68, 68);
     color:white;
@@ -117,6 +117,8 @@ html,body {
     font-family: "Oswald", sans-serif;
     margin: 0;
     padding: 0;
+    width:100%;
+    min-height:100%;
 }
 .background {
     opacity: 0.8;
@@ -182,17 +184,31 @@ dl {
    
     font-size: 1.5em;
     z-index:2;
+    text-align:center;
 
 }
-#story, #shortstory {
 
+.storylink a {
+    padding:1em;
+}
+#story, #shortstory {
+    font-size:1.5em;
     width: 80%;
-    padding: 5vw;
+    padding: 10%;
 }
 
 .plug p {
     text-align: center;
     font-size:2em;
+}
+
+.submitbutton {
+    position: absolute;
+    top:400px;
+    left:40px;
+    font-size:2em;
+    background:white;
+    border-radius:5px;
 }
 .footer {
     width: 100%;
