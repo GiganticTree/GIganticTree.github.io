@@ -183,9 +183,11 @@ html,body {
     font-size:3vw;
     background-repeat:no-repeat;
     background-position:center;
-
- 
 }
+.Lylalink {
+    color:gray;
+}
+
 .storylink {
     position: absolute;
    
@@ -257,6 +259,7 @@ a:hover {
 
 #tidbit2:hover {
     visibility: hidden;
+    transition: visibility 0.1s;
     
     
 

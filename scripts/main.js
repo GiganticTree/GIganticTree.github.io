@@ -42,8 +42,8 @@ var myClue2 = document.querySelector("#tidbit1").onclick = function() {
     var y = document.getElementById("tidbit2");
     
         y.style.display = "block";
-        
-   
+    var m = document.getElementById("tidbit1");   
+        m.style.display = "none";
 }
 
 var myButton = document.querySelector('button');
