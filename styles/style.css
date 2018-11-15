@@ -57,6 +57,9 @@ a.menu:hover {
     color: rgb(190, 190, 190);
     z-index:1;
     opacity: 0.7;
+    white-space:nowrap;
+    overflow-x: scroll;
+    
 }
 
 .topborder .topleft {
@@ -72,13 +75,6 @@ a.menu:hover {
 
 }
 
-ul {
-    background-image: url("../images/shadowridge.JPG");
-    opacity: 50%;
-    background-size: cover;
-    font-size: 25px; /*set size to 25 pixels*/
-    
-}
 
 .Lyla {
     font-family: "Special Elite";
@@ -102,9 +98,7 @@ h1 {
 
 }
 
-h1:hover {
-    text-shadow: 1px 0 20px red;
-}
+
 h3 {
     font-size:2em;
     margin: 0;
@@ -129,15 +123,7 @@ html,body {
 
 }
 
-ul li:before {
-    content: open-quote;
-    color: teal;
-    background: yellow;
-}
 
-dl {
-    color: white;
-}
 
 .torso {
     height:45vw;
@@ -156,15 +142,36 @@ dl {
     background: black;
 }
 
-
-.torso p, .destorso p {
-    font-size: 2em;
-    text-align: center;
-    padding: 2vw 8vw;
-    opacity: 1;
+.blko:hover {
+    color:transparent;
 }
 
 
+.torso p, .destorso p {
+    font-size: 4vw;
+    text-align: center;
+    padding: 2vw 8vw;
+    opacity: 1;
+    
+}
+
+.praclinks {
+    font-size:3vw;
+    position: relative;
+    left: 8vw;
+    width:80%;
+}
+
+.clue1 { 
+
+}
+
+.clue1:hover {
+    visibility: visible;
+      
+   
+    color: red;
+}
 .email {
     margin: 0;
     background-image: url("../images/shadowridge.JPG");
@@ -201,7 +208,17 @@ dl {
     text-align: center;
     font-size:2em;
 }
+a {
+    text-decoration:none;
+    color:black;
 
+}
+a:hover {
+    transition: text-shadow 0.5s;
+    
+    text-shadow: 0 0 4px red;
+    
+}
 .submitbutton {
     position: absolute;
     top:400px;
@@ -222,6 +239,26 @@ dl {
 
 .footer p {
     text-align: center;
+
+
+}
+
+#clue1 {
+    
+    position: relative;
+    left: 0;
+}
+
+#tidbit1, #tidbit2 {
+    position: relative;
+    display: none;
+    
+}
+
+#tidbit2:hover {
+    visibility: hidden;
+    
+    
 
 
 }
