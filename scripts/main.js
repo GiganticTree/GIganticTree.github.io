@@ -48,6 +48,8 @@ var myClue2 = document.querySelector("#tidbit1").onclick = function() {
         m.style.display = "none";
 }
 
+
+
 var myButton = document.querySelector('button');
 var myHeading = document.querySelector('h1');
 
