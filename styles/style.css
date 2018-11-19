@@ -265,3 +265,37 @@ a:hover {
 
 
 }
+
+.redbox {
+    background:black;
+}
+
+.redbox button {
+    display: inline-block;
+    position: relative;
+    left: 210px;
+    top: 40px;
+    font-size: 1vw;
+    border-radius: 5px;
+    padding: 2vw;
+    margin: auto;
+    background: green;
+}
+
+#oakb1 {
+    position:absolute;
+    left:5.8vw;
+    top:55vw;
+    background: rgb(250, 121, 211);
+    padding: 1vw .3vw 1vw .3vw;
+    transform: rotate(20deg);
+    border-color: gray;
+    
+}
+
+.redbox img {
+    display: block;
+
+   width:100%;
+
+}

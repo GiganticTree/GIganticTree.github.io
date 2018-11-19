@@ -30,12 +30,14 @@ var myClue1 = document.querySelector("#clue1").onclick = function() {
 
 var myClue1hover = document.querySelector("#clue1").onmouseenter = function() {
     var z = document.getElementById("clue1");
-        z.style.left = 80 + "px";
+        z.style.left = 580 + "px";
+        z.style.bottom = 700 + "px";
 }
 
 var myClue1hover = document.querySelector("#tidbit1").onmouseover = function() {
     var t = document.getElementById("tidbit1");
-        t.style.left = 140 + "px";
+        t.style.left = 840 + "px";
+        t.style.top = 400 + "px";
 }
 
 var myClue2 = document.querySelector("#tidbit1").onclick = function() {
