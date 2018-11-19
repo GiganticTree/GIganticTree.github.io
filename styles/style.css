@@ -247,8 +247,11 @@ a:hover {
 
 #clue1 {
     
-    position: relative;
-    left: 0;
+    position: absolute;
+    bottom: .5vw;
+    color: rgb(167, 165, 165);
+    left:6vw;
+    transform: rotate(30deg);
 }
 
 #tidbit1, #tidbit2 {
@@ -328,6 +331,36 @@ a:hover {
     background: transparent;
     border-color:transparent;
     padding: 2vw;
+}
+
+#oakb5 {
+    position: absolute;
+    top: 35vw;
+    left:6vw;
+    padding: 1.5vw .5vw;
+    background: transparent;
+    border-color: transparent;
+    transform: rotate(5deg);
+}
+#oakb6 {
+    position: absolute;
+    top: 46vw;
+    left:39vw;
+    transform: rotate(5deg);
+    padding: 12vw 1vw;
+    background: transparent;
+    border-color: transparent;
+
+}
+#oakb7 {
+    position: absolute;
+    top: 28vw;
+    left:34vw;
+    padding: 22vw 1.5vw;
+    background: transparent;
+    border-color: transparent;
+
+    transform: rotate(5deg);
 }
 .redbox img { /*this is the style of shadowoakpage*/
     display: block;
